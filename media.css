@@ -182,16 +182,82 @@ and (orientation : portrait) {
       
 }
 
+
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
-/* Styles */
+ 
+    body {
+     font-size: 14px;
+    }
+
+    .cover .full-image .container{
+        margin-top: 250px;
+        margin-left: 10%;
+        width: 40em;
+        
+    }
+      
+    .offer{
+        width: 50em;
+        padding: 180px 0 250px 0;
+    }
+
+
+    /* footer */
+    footer {
+        text-align: center;
+    }
+
+    .footer-columns{
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 20% 0 20%;
+    }
+      
+    .footer-columns div{
+        padding-left: 5em;
+    }
+      
+
 }
 
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
-/* Styles */
+    body {
+        font-size: 14px;
+    }
+   
+    .cover .full-image .container{
+        margin-top: 250px;
+        margin-left: 10%;
+        width: 40em;
+        
+    }
+      
+    .offer{
+        width: 50em;
+        padding: 180px 0 250px 0;
+    }
+
+
+    /* footer */
+    footer {
+        text-align: center;
+    }
+
+    .footer-columns{
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 20% 0 20%;
+    }
+      
+    .footer-columns div{
+        padding-left: 5em;
+    }
 }
 
 /* iPhone 4 ----------- */
