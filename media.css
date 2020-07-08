@@ -65,9 +65,7 @@ and (max-width : 320px) {
         width: 15em;
     }
     .cover .full-image {
-        background: url("images/Rooster_LandingPage_Mobile_Jackpot-1.jpg") center center no-repeat;
-
-        background: url("images/Rooster_LandingPage_1920x1080_Jackpot1.jpg") center center no-repeat;
+        background: url("images/Rooster_LandingPage_1920x1080_Jackpot1Mobile.jpg") center center no-repeat;
         background-size: cover;
        
     }
@@ -127,9 +125,7 @@ and (max-device-width : 480px) {
         width: 15em;
     }
     .cover .full-image {
-        background: url("images/Rooster_LandingPage_Mobile_Jackpot-1.jpg") center center no-repeat;
-        
-        background: url("images/Rooster_LandingPage_1920x1080_Jackpot1.jpg") center center no-repeat;
+        background: url("images/Rooster_LandingPage_1920x1080_Jackpot1Mobile.jpg") center center no-repeat;
         background-size: cover;
        
     }
@@ -281,7 +277,7 @@ and (orientation : portrait) {
     }
 
     .cover .full-image {
-        background: url("images/Rooster_LandingPage_Mobile_Jackpot-1.jpg") center center no-repeat;
+        background: url("images/Rooster_LandingPage_1920x1080_Jackpot1Mobile.jpg") center center no-repeat;
         background-size: contain ;
     }
     
@@ -408,6 +404,7 @@ and (min-width : 1224px) {
       
     .footer-columns div{
         padding-left: 5em;
+      
     }
       
 
@@ -446,7 +443,7 @@ and (min-width : 1824px) {
         display: flex;
         box-sizing: border-box;
         width: 100%;
-        padding: 0 20% 0 20%;
+        padding: 0 20% 20 20%;
     }
       
     .footer-columns div{
