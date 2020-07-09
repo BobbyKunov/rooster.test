@@ -8,9 +8,12 @@
 /* Smartphones (portrait and landscape) ----------- */
 
 
+
 /* Smartphones (landscape) ----------- */
 @media only screen 
-and (min-width : 321px) and (orientation:landscape) {
+and (min-width : 321px) 
+and (max-width : 850px) 
+and (orientation:landscape) {
     body {
         font-size: 8px;
     }
@@ -23,7 +26,7 @@ and (min-width : 321px) and (orientation:landscape) {
       } 
 
     .cover .full-image {
-        background: url("images/Rooster_LandingPage_1920x1080_Jackpot1.jpg") center center no-repeat;
+        /* background: url("images/Rooster_LandingPage_1920x1080_Jackpot1.jpg") center center no-repeat; */
         background-size: contain;
     }
     .cover .full-image .container{
@@ -176,6 +179,21 @@ and (max-device-width : 480px) {
         padding-bottom: 1em;
     }
 }
+/* iPhone 4 ----------- */
+@media
+
+(max-width : 480px)
+and (orientation : landscape){
+    body {
+        font-size: 5px;
+    }
+    
+    .offer{
+        width: 50em;
+        padding: 50px 0 90px 0;
+    }
+}
+
 
 
 /* iPads (portrait and landscape) ----------- */
@@ -245,6 +263,8 @@ and (orientation : landscape) {
     align-items: center;
     justify-content: center;
     }
+    
+    
     .cover {
         height: 100vh;
         width: 100%;
@@ -256,6 +276,7 @@ and (orientation : landscape) {
     .cover .full-image .container{
         float: none;
         margin-top: 120px;
+        margin-left: 6em;
         display: inline-block;
         box-sizing: border-box;
         
@@ -338,7 +359,7 @@ and (orientation : portrait) {
 /* Iphone X Max & Androind Big Screens----Landscape--------*/
 @media only screen 
 and (min-device-width : 800px) 
-and (max-device-width : 900px) 
+and (max-device-width : 850px) 
 
 and (orientation : landscape) {
 
@@ -389,10 +410,26 @@ and (orientation : landscape) {
 
 }
 
+/* Iphone 5/SE ------------- */
+@media only screen 
+and (device-width : 568px) 
+and (orientation : landscape) {
+
+    body {
+        font-size: 7px;
+    }
+
+    .offer{
+        width: 50em;
+        padding: 100px 0 100px 0;
+    }
+}
+
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 1050px)
+and (max-width : 1800px) {
  
     body {
      font-size: 14px;
@@ -418,6 +455,7 @@ and (min-width : 1224px) {
       
       .cover .full-image .container{
         margin-top: 200px;
+        margin-left: 8em;
         width: 40em;
       }
       
@@ -460,7 +498,7 @@ and (min-width : 1824px) {
         display: inline-block;
         align-items: center;
         justify-content: center;
-      }
+    }
    
     .cover .full-image .container{
         
@@ -492,11 +530,5 @@ and (min-width : 1824px) {
     }
 }
 
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}
 
 
